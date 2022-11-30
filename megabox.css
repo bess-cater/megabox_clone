@@ -279,9 +279,61 @@ form>input{
     margin-left: 280px;
     margin-right: 280px; 
 }
-#curation>p{
-    margin-top: ;
+#curation>div:first-of-type>p{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: flex-end;
 }
+#curation>div:first-of-type>p>span{
+    position: relative;
+    right: 1080px;
+    font-weight: 600;
+    font-size: 30px;
+}
+#cur_bottom{
+    position: relative;
+    top: 60px;
+    display: flex;
+}
+#cur_img + div{
+    position: relative;
+    top: 10px;
+    width: 293px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#cur_img + div>a:first-of-type{
+    border-radius: 1mm;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 10px;
 
+}
+#cur_img + div>a:last-of-type{
+    background-color: rgb(2, 128, 150);
+    border-radius: 1mm;
+    border: none;
+    font-weight: 600;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+#cur_bottom>div:last-of-type{
+    width: 900px;
 
+}
+#cur_bottom>div:last-of-type>div:first-of-type{
+    border-bottom: 0.01mm solid rgb(221, 184, 255);
+
+}
 
