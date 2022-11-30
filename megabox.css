@@ -5,8 +5,14 @@ body{
 a:hover{
     cursor: pointer;
 }
+section{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
 *{
     box-sizing: border-box;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
 }
 
 a{
@@ -20,14 +26,20 @@ ul li{
 }
 
 header{
-    /* width: 100%; */
-
     height: 80px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
     border-bottom: solid 1px gray;
+}
+header ul span img{
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+
 }
 header>div{
     
@@ -72,6 +84,8 @@ header>div>ul{
 
 #big_nav_l>li>a, #big_nav_r>li>a{
     margin: 0 25px;
+    position: relative;
+    top: 8px;
 }
 #big_nav_l>span, #big_nav_r>span{
     display: flex;
@@ -91,6 +105,12 @@ header>div>ul{
 
 main{
     padding-top: 50px;
+    margin: 0;
+    /* width: 100%; */
+
+
+}
+#box_office{
     margin-left: 280px;
     margin-right: 280px; 
 }
@@ -180,9 +200,88 @@ form>input{
 #line>ul>li:first-of-type{
     border-left: none;
 }
+#bonus{
+    /* width: 100vw; */
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+}
+#bonus p{
+    color: black;
+    font-size: 25pt;
+    margin-bottom: 0;
+}
+#bonus p>a{
+    position: relative;
+    left: 1100px;
+}
 .bonuses{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: relative;
+    top: 90px;
+}
+#bonus>div:first-of-type{
+    height: 580px;
+    margin-left: 280px;
+    margin-right: 280px; 
+    position: relative;
+    top: 20px;
 
 }
+#bonus>div:first-of-type>div:last-of-type{
+    position: relative;
+    bottom: -15px;
+
+}
+#bonus>div:first-of-type>div:last-of-type>img{
+    border-radius: 2mm;
+    box-shadow: 10px 10px 10px -3px rgba(0, 0, 0, 0.144);
+}
+#bonus>div:last-of-type{
+    background-color: #503396;
+    height: 250px;
+    padding-left: 290px;
+    padding-right: 340px; 
+    width: 100%;
+    margin: 0;
+}
+#bonus>div:last-of-type>ul>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#bonus>div:last-of-type>ul img{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+
+}
+#bonus>div:last-of-type>ul a{
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+
+}
+#curation{
+    position: relative;
+    top: -20px;
+    background-color: #252451;
+    margin: 0;
+    height: 600px;}
+#curation>*{
+    margin-left: 280px;
+    margin-right: 280px; 
+}
+#curation>p{
+    margin-top: ;
+}
+
+
+
