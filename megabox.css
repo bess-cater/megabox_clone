@@ -298,7 +298,7 @@ form>input{
 }
 #cur_img + div{
     position: relative;
-    top: 10px;
+    top: -120px;
     width: 293px;
     display: flex;
     align-items: center;
